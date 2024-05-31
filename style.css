@@ -1,0 +1,24 @@
+h1 {
+    background-color: aqua;
+    font-family: Hack, Arial, sans-serif;
+    color:rgb(5, 5, 70);
+    font-weight: 800;
+}
+
+h3 {
+    background-color: pink;
+    color: rgb(129, 6, 6);
+}
+
+.guac {
+    font-size: 2em;
+}
+
+p {
+    font-family: Hack, Arial, sans-serif;
+}
+
+.list-bg {
+    background-color: rgb(227, 230, 227);
+    font-family: 'Courier New', Courier, monospace;
+}
