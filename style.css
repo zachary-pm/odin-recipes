@@ -1,24 +1,49 @@
+body {
+    background-color: azure;
+    margin-left: 20px;
+}
+
 h1 {
     background-color: aqua;
     font-family: Hack, Arial, sans-serif;
     color:rgb(5, 5, 70);
     font-weight: 800;
+    width: 500px;
 }
 
 h3 {
-    background-color: pink;
-    color: rgb(129, 6, 6);
+    color: rgb(5, 5, 70);
+    width: 500px;
+}
+
+h1, h3 {
+    text-align: center;
 }
 
 .guac {
     font-size: 2em;
 }
 
-p {
+p, ul, ol {
+    box-sizing: border-box;
     font-family: Hack, Arial, sans-serif;
+    width: 500px;
+    background-color: aquamarine;
+    border: 4px outset darkblue;
 }
 
 .list-bg {
     background-color: rgb(227, 230, 227);
     font-family: 'Courier New', Courier, monospace;
+}
+
+.descimg {
+    height:auto;
+    width: 500px;
+    margin: 8px auto;
+}
+
+.homelink {
+    background: none;
+    margin: 8px auto;
 }
